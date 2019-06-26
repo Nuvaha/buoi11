@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_click"
+        android:text="click"
+        android:background="@drawable/state_drawable"
+        android:layout_width="match_parent"
+        android:textColor="#FFF"
+        android:layout_height="50dp" />
+    <ImageView
+        android:id="@+id/im_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/animation_frawable"/>
+    <Button
+        android:id="@+id/btn_click_alpha"
+        android:text="alpha"
+        android:background="@drawable/state_drawable"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_click_rotate"
+        android:text="rotate"
+        android:background="@drawable/state_drawable"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_click_scale"
+        android:text="scale"
+        android:background="@drawable/state_drawable"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_click_translate"
+        android:text="translate"
+        android:background="@drawable/state_drawable"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_click_set"
+        android:text="set"
+        android:background="@drawable/state_drawable"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:layout_height="50dp" />
+
+</LinearLayout>
